@@ -24,7 +24,7 @@ body.dark{
 }
 
 #toggle-btn{
-    padding-left: 1em;
+    padding-left: 2em;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -46,19 +46,18 @@ header {
     position: fixed;
     z-index: 100;
     display: flex;
-    justify-content: row;
-    align-items: center;
+    justify-content: space-between;
     padding: 1em 2em;
     opacity: 90%;
 }
 
 .logo {
-    padding-right: 60vw;
     text-decoration: none;
     color:royalblue;
     text-transform: uppercase;
     font-weight: 600;
     font-size: 1.5em;
+    padding: .5em;
 }
 
 .navigation a {
@@ -74,7 +73,7 @@ header {
 }
 
 section {
-    padding: 5em;
+    padding: 5em ;
 }
 
 .main {
@@ -151,6 +150,8 @@ section {
 
 .content {
     color: var(--black);
+    height: 50vh;
+
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -214,9 +215,8 @@ section {
     background-color: var(--white);
     border: .5em solid var(--white);
     margin: 1em;
-    max-height: 18em;
-    width: 15em;
-    overflow: hidden;
+    max-height: 28em;
+    width: 20em;
     border-radius: 10px;
     transition: 0.7s ease;
 }
@@ -297,27 +297,20 @@ div[lang].lang-match {
 }
 
 @media (max-width:1450px){
-    .logo{
-        padding-right: 45vw;
-    }
     
-}
-/* @media (max-width:1170px){
-    .logo{
-        padding-right: 40vw;
+    #toggle-btn{
+        padding-left: 1em;
     }
-} */
+    .content{
+        height: auto;
+    }
+}
+
 @media (max-width:1060px){
     header{
         font-size: 1rem;
     }
-    .logo{
-    padding-right: 25vw;
-    }
-    .navigation{
-        padding-left: 3em;
-    }
-
+    
     .title{
         font-size: 1.8rem;
     }
@@ -349,9 +342,6 @@ div[lang].lang-match {
     body{
         font-size: 1.1rem;
     }
-    .logo{
-        padding-right: 20vw;
-    }
     header{
         font-size: .8rem;
     }
@@ -375,9 +365,6 @@ div[lang].lang-match {
     }
     header{
         padding: .5em;
-    }
-    .logo{
-        padding-right: 15vw;
     }
     body{
         font-size: .8rem;
