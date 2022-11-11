@@ -150,7 +150,7 @@ section {
 
 .content {
     color: var(--black);
-    height: 50vh;
+    height: 50%;
 
     display: flex;
     justify-content: center;
@@ -301,9 +301,6 @@ div[lang].lang-match {
     #toggle-btn{
         padding-left: 1em;
     }
-    .content{
-        height: auto;
-    }
 }
 
 @media (max-width:1060px){
@@ -322,10 +319,6 @@ div[lang].lang-match {
     }
     .main h2 {
         font-size: 1.6rem;
-    }
-    .content{
-        flex-direction: column;
-        align-items: center;
     }
     .projectCard {
         transition: 0.4s ease;
