@@ -147,18 +147,20 @@ section {
     font-weight: 800;
     margin-bottom: 30px;
 }
-
 .content {
-    color: var(--black);
     height: 50%;
-
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+.content a{
+    color: var(--black);
+    text-decoration: none;
+    display: flex;
+}
 
-.projectCategoryCard {
+.content .projectCategoryCard {
     background-color: var(--white);
     box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
     border-radius: 10px;
@@ -169,31 +171,31 @@ section {
     transition: 0.7s ease;
 }
 
-.projectCategoryCard a {
+.content .projectCategoryCard a {
     text-decoration: none;
     color: var(--white);
 }
-.projectCategoryCard:hover {
+.content .projectCategoryCard:hover {
     transform: scale(1.1);
 }
 
-.icon {
+.content .icon {
     font-size: 5em;
     text-align: center;
 }
 
-.info {
+.content .info {
     text-align: center;
     text-orientation: initial;
 }
 
-.info h2{
+.content .info h2{
     font-size: 1.2rem;
     font-weight: 700;
     margin: .5rem;
 }
 
-.info p{
+.content .info p{
     font-family: 'Raleway' , cursive;
     font-size: .8rem;
     font-weight: 500;
