@@ -258,13 +258,14 @@ section {
     color: chocolate;
 }
 
-
+.ContactCards{
+    color: var(--black);
+}
 .ContactCards .icon {
     font-size: 2em;
 }
 .ContactCards a {
     transition: .2s linear;
-    color: var(--black);
 }
 .footer {
     background-color: var(--black);
