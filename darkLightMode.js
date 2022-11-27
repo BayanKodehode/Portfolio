@@ -1,6 +1,16 @@
 let toggleBtn = document.getElementById("toggle-btn");
 let darkMode = localStorage.getItem("dark-mode");
 
+
+toggleBtn.onclick = (e) => {
+  darkMode = localStorage.getItem("dark-mode");
+  if (darkMode === "disabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+};
+
 const enableDarkMode = () => {
   toggleBtn.classList.replace("fa-sun", "fa-moon");
   document.body.classList.add("dark");
@@ -16,12 +26,3 @@ const disableDarkMode = () => {
 if (darkMode === "enabled") {
   enableDarkMode();
 }
-
-toggleBtn.onclick = (e) => {
-  darkMode = localStorage.getItem("dark-mode");
-  if (darkMode === "disabled") {
-    enableDarkMode();
-  } else {
-    disableDarkMode();
-  }
-};

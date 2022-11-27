@@ -15,7 +15,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     transition: .2s linear;
-
 }
 
 body.dark{
@@ -69,7 +68,7 @@ header {
 }
 
 .navigation a:hover {
-    color:coral;
+    color:rgb(255, 81, 17);
 }
 
 section {
@@ -147,6 +146,15 @@ section {
     font-weight: 800;
     margin-bottom: 30px;
 }
+
+.aboutTxt{
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    font-size: 1.1em;
+    margin-top: 3em;
+    text-align: center;
+}
+
 .content {
     height: 50%;
     display: flex;
@@ -295,7 +303,6 @@ div[lang] {
 }
 
 div[lang].lang-match {
-    /* background-color: cornflowerblue; */
     display: block;
 }
 

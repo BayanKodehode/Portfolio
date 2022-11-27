@@ -52,7 +52,13 @@ let langdata = {
                 "discription": "Who writes clean, elegent and efficient code",
                 "firstBtn": "View my work",
                 "firstLabel": "About me",
-                "firstDiscription":"Lorem ipsum dolor sit amet consectetur adipisicing elit Recusandae voluptatibus quia minima inventore Minima quia nihil adipisci vero. Dolorum odio iste vero debitis id, obcaecati aliquam, deleniti natus numquam ipsum delectus vel molestiae similique dicta modi",
+                "firstDiscription":"I am a person who has a 'can-do attitude', which means curious, willing to deal with problems, investigate ambiguities, learn new technologies."
+                +"\nActively work to share knowledge and best practice in a supportive environment, and promote continuous improvement."
+                +"\nUnderstand and care about the importance of creating well-documented and tested software services."
+                +"\nEnjoy being part of a team that continuously improves its processes, shares and receives constructive."
+                +"feedback, contributes to everyone's growth and always has the best support and product for our customers!"
+                +"\nAdaptable and can fit in anywhere, a person who enjoys life, who willingly and easily learns new techniques and technologies every day."
+                +"\nI am looking for opportunities to learn full stack development, and gain more expertise, develop myself in the field and become the best developer.",
                 "secondLabel": "Category",
                 "micProjectsDis":"Projects that i have been working on with .Net Platform",
                 "jsProjectsDis":"Websites that i have been making with JS",
@@ -69,7 +75,12 @@ let langdata = {
                 "discription": "Som skriver ren, elegant og effektiv kode",
                 "firstBtn": "Se prosjektene mine",
                 "firstLabel": "Om Meg",
-                "firstDiscription":"Lorem ipsum dolor sit amet consectetur adipisicing elit Recusandae voluptatibus quia minima inventore Minima quia nihil adipisci vero. Dolorum odio iste vero debitis id, obcaecati aliquam, deleniti natus numquam ipsum delectus vel molestiae similique dicta modi",
+                "firstDiscription":"Jeg er en person som har en 'kan-gjøre-holdning', som betyr nysgjerrig,villig til å håndtere problemer, undersøke uklarheter, og lære nye teknologier."
+                +"\nArbeid aktivt for å dele kunnskap og beste praksis i et støttende miljø, og fremme kontinuerlig forbedring."
+                +"\nForstår og bryr meg om viktigheten av å lage veldokumenterte og testede programvaretjenester."
+                +"\nTrives med å være en del av et team som kontinuerlig forbedrer sine prosesser, deler og mottar konstruktive tilbakemeldinger, bidrar til alles vekst og alltid har den beste støtten og produktet for våre kunder!"
+                +"\nTilpasningsdyktig og kan passe inn hvor som helst, en person som nyter livet, som villig og enkelt lærer nye teknikker og teknologier hver dag."
+                +"\nJeg ser etter muligheter for å lære full stack utvikling, og få mer kompetanse, utvikle meg innen faget og bli den beste utvikler.",
                 "secondLabel": "Kategorier",
                 "micProjectsDis":"Prosjekter som jeg har jobbet på med .Net Platform",
                 "jsProjectsDis":"Nettsider som jeg har laget med JS",
