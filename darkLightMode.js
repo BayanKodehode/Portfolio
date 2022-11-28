@@ -3,9 +3,12 @@ let darkMode = localStorage.getItem("dark-mode");
 
 
 toggleBtn.onclick = (e) => {
+  console.log('(e onclick)');
+
   darkMode = localStorage.getItem("dark-mode");
   if (darkMode === "disabled") {
     enableDarkMode();
+    
   } else {
     disableDarkMode();
   }
