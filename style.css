@@ -23,7 +23,9 @@ body.dark{
 }
 
 #toggle-btn{
-    padding-left: 2em;
+    position: fixed;
+    top: 15vh;
+    left: 93vw;    
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -33,7 +35,6 @@ body.dark{
     font-size: 1.5rem;
     cursor: pointer;
     text-align: center;
-    z-index: 1000;
 }
 
 #toggle-btn.fa-moon{
@@ -308,14 +309,11 @@ div[lang].lang-match {
     display: block;
 }
 
-@media (max-width:1450px){
-    
-    #toggle-btn{
-        padding-left: 1em;
-    }
-}
 
 @media (max-width:1060px){
+    #toggle-btn{
+        left: 85vw;
+    }
     header{
         font-size: 1rem;
     }
@@ -344,6 +342,10 @@ div[lang].lang-match {
 }
 
 @media (max-width:600px){
+    #toggle-btn{
+        font-size: 1rem;
+        left: 85vw;
+    }
     body{
         font-size: 1.1rem;
     }
@@ -367,6 +369,7 @@ div[lang].lang-match {
 @media (max-width:400px){
     #toggle-btn{
         font-size: 1rem;
+        left: 85vw;
     }
     header{
         padding: .5em;
