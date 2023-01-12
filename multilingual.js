@@ -59,9 +59,7 @@ let langdata = {
                 +"feedback, contributes to everyone's growth and always has the best support and product for our customers!"
                 +"\nAdaptable and can fit in anywhere, a person who enjoys life, who willingly and easily learns new techniques and technologies every day."
                 +"\nI am looking for opportunities to learn full stack development, and gain more expertise, develop myself in the field and become the best developer.",
-                "secondLabel": "Category",
-                "micProjectsDis":"Projects that i have been working on with .Net Platform",
-                "jsProjectsDis":"Websites that i have been making with JS",
+                "secondLabel": "Skils",
                 "letsWorkTitle":"Let's work together",
                 "projectsTitle":"Projects",
                 "aboutNav":"About",
@@ -80,9 +78,7 @@ let langdata = {
                 +"\nTrives med å være en del av et team som kontinuerlig forbedrer sine prosesser, deler og mottar konstruktive tilbakemeldinger, bidrar til alles vekst og alltid har den beste støtten og produktet for våre kunder!"
                 +"\nTilpasningsdyktig og kan passe inn hvor som helst, en person som nyter livet, som villig og enkelt lærer nye teknikker og teknologier hver dag."
                 +"\nJeg ser etter muligheter for å lære full stack utvikling, og få mer kompetanse, utvikle meg innen faget og bli den beste utvikler.",
-                "secondLabel": "Kategorier",
-                "micProjectsDis":"Prosjekter som jeg har jobbet på med .Net Platform",
-                "jsProjectsDis":"Nettsider som jeg har laget med JS",
+                "secondLabel": "Ferdigheter",
                 "letsWorkTitle":"La oss jobbe sammen",
                 "projectsTitle":"Prosjektene",
                 "aboutNav":"OM Meg",
