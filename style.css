@@ -25,7 +25,7 @@ body.dark {
 
 #toggle-btn {
     position: fixed;
-    top: 15vh;
+    top: 26vh;
     left: 93vw;
     height: 2em;
     width: 2em;
@@ -318,12 +318,103 @@ div[lang].lang-match {
     display: block;
 }
 
+.main-button {
+    position: fixed;
+    top: 14vh;
+    left: 92.5vw;
+    width: 4em;
+    height: 4em;
+    border-radius: 1.5em;
+    border: none;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-button:hover {
+    transform: scale(1.1);
+}
+
+.main-button:active {
+    transform: scale(0.9);
+}
+
+.main-button i {
+    margin-left: 10px;
+    font-size: 18px;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-button:hover i {
+    transform: rotate(180deg);
+}
+
+.hidden-buttons {
+    display: none;
+    flex-direction: row;
+}
+
+.no-button {
+    position: absolute;
+    top: 13vh;
+    left: 85vw;
+}
+.en-button {
+    position: absolute;
+    top: 13vh;
+    left: 80vw;
+}
+
+.cv-button {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    border-radius: 2.5em;
+    border: none;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-button:hover {
+    transform: scale(1.1);
+}
+
+.cv-button:active {
+    transform: scale(0.9);
+}
+
+.cv-button i {
+    font-size: 18px;
+}
 
 @media (max-width:1060px) {
     #toggle-btn {
         left: 85vw;
     }
-
+    .main-button {
+        left: 84vw;
+    }
+    .no-button {
+        left: 72vw;
+    }
+    .en-button {
+        left: 63vw;
+    }
+    
     header {
         font-size: 1rem;
     }
@@ -361,6 +452,18 @@ div[lang].lang-match {
         font-size: 1rem;
         left: 85vw;
     }
+    .main-button {
+        font-size: .8rem;
+        left: 83vw;
+    }
+    .no-button {
+        font-size: .8rem;
+        left: 68vw;
+    }
+    .en-button {
+        font-size: .8rem;
+        left: 57vw;
+    }
 
     body {
         font-size: 1.1rem;
@@ -390,6 +493,20 @@ div[lang].lang-match {
     #toggle-btn {
         font-size: 1rem;
         left: 85vw;
+    }
+    .main-button {
+        top: 17vh;
+        left: 78vw;
+    }
+    .no-button {
+        font-size: .6rem;
+        top: 17vh;
+        left: 59vw;
+    }
+    .en-button {
+        font-size: .6rem;
+        top: 17vh;
+        left: 46vw;
     }
 
     header {

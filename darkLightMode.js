@@ -27,3 +27,11 @@ const disableDarkMode = () => {
 if (darkMode === 'enabled') {
 	enableDarkMode();
 }
+
+// cv buttons
+const mainButton = document.querySelector('.main-button');
+const hiddenButtons = document.querySelector('.hidden-buttons');
+
+mainButton.addEventListener('click', () => {
+  hiddenButtons.style.display = hiddenButtons.style.display === 'flex' ? 'none' : 'flex';
+});
