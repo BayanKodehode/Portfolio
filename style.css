@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Coiny&family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700;900&family=Coiny&family=Raleway+Dots&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap');
 
 :root {
     --white: #fff;
@@ -55,9 +55,10 @@ header {
 }
 
 .logo {
+    font-family: 'Arima', cursive;
+    font-weight: 900;
     text-decoration: none;
     color: royalblue;
-    font-weight: 600;
     font-size: 2em;
 }
 
