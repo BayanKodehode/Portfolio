@@ -470,6 +470,9 @@ div[lang].lang-match {
         font-size: .8rem;
     }
 
+    .main h1 {
+        font-size: 1.4rem;
+    }
     .main h2 {
         font-size: 1.4rem;
     }
@@ -508,6 +511,10 @@ div[lang].lang-match {
 
     body {
         font-size: .8rem;
+    }
+
+    .main h1 {
+        font-size: 1.1rem;
     }
 
     .main h2 {
