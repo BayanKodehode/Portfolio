@@ -59,7 +59,7 @@ header {
     font-weight: 900;
     text-decoration: none;
     color: royalblue;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .navigation a {
@@ -94,7 +94,7 @@ section {
 .main h1 {
     font-family: 'Arima', cursive;
     color: var(--white);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 600;
 }
 
@@ -103,7 +103,7 @@ section {
     display: inline-block;
     margin-top: 10px;
     color: var(--white);
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 600;
 }
 
@@ -428,13 +428,6 @@ div[lang].lang-match {
         padding: 5em 2em;
     }
 
-    .main h1 {
-        font-size: 3rem;
-    }
-    .main h1 span{
-        font-size: 3rem;
-    }
-
     .main h2 {
         font-size: 1.6rem;
     }
@@ -477,10 +470,6 @@ div[lang].lang-match {
         font-size: .8rem;
     }
 
-    .main h1 {
-        font-size: 3rem;
-    }
-
     .main h2 {
         font-size: 1.4rem;
     }
@@ -519,10 +508,6 @@ div[lang].lang-match {
 
     body {
         font-size: .8rem;
-    }
-
-    .main h1 {
-        font-size: 3rem;
     }
 
     .main h2 {
